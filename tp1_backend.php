@@ -62,9 +62,12 @@
     $base = 18;
     $altura = 12;
 
-    $rectangulo = $base * 2 + $altura * 2;
+    $prectangulo = $base * 2 + $altura * 2;
+    $arectangulo = $base * $altura;
 
-    echo $rectangulo;
+    echo $prectangulo;
+    echo " // ";
+    echo $arectangulo;
     ?>
 
     <hr>
@@ -75,9 +78,12 @@
     $radio = 30;
     $pi = 3.14;
 
-    $circulo = 2 * $pi * $radio;
+    $pcirculo = 2 * $pi * $radio;
+    $acirculo = $pi * $radio**2;
 
-    echo $circulo;
+    echo $pcirculo;
+    echo " // ";
+    echo $acirculo;
     ?>
 
     
